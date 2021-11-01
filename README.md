@@ -6,4 +6,4 @@ Vanilla JS, BootStrap, Html, SS
 
 Back-End: Express
 
-Database: 
+Database: MongoDB
