@@ -1,3 +1,7 @@
 # E-Commerce-ZW
 An E-Commerce store with a cart and checkout
-Tech Stack: Vanilla JS,
+
+Front-End:
+Vanilla JS, BootStrap, Html, SS
+
+Back-End: Express
