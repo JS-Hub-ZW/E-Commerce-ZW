@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T08:17:20.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="pDXb_Mjurp61pjiOWKni" version="15.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-05T08:18:20.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VDFmjVXJ-30JYO4P_4kU" version="15.6.8" type="github" pages="4">
   <diagram id="9FYSmOJHKqfUZGMzVcu-" name="Use Case">
     <mxGraphModel dx="783" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -510,7 +510,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="a5KU5M3xCNDuWoJy0QLk" name="ERD">
-    <mxGraphModel dx="1305" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1503" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="lPhKq7tkLgpHc5pmpm-n-0" />
         <mxCell id="lPhKq7tkLgpHc5pmpm-n-1" parent="lPhKq7tkLgpHc5pmpm-n-0" />
@@ -546,6 +546,9 @@
         </mxCell>
         <mxCell id="6R6fKPW5leApas6zcDT--1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;blogs&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id&lt;br&gt;user_id&lt;br&gt;title&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;except&lt;br&gt;story&lt;br&gt;category_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;created_at&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=0;fontSize=12;shadow=1;" vertex="1" parent="lPhKq7tkLgpHc5pmpm-n-1">
           <mxGeometry x="550" y="840" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6R6fKPW5leApas6zcDT--2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;product_images&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id&lt;br&gt;product_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;image&lt;br&gt;is_main&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;created_at&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=0;fontSize=12;shadow=1;" vertex="1" parent="lPhKq7tkLgpHc5pmpm-n-1">
+          <mxGeometry x="-100" y="400" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
