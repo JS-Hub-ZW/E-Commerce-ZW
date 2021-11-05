@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T07:25:34.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KZHHRYP3fq0d3z_fNYlW" version="15.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-05T07:26:56.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ZZUaamcxKEOTnLxDcUGW" version="15.6.8" type="github" pages="4">
   <diagram id="9FYSmOJHKqfUZGMzVcu-" name="Use Case">
     <mxGraphModel dx="783" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -516,6 +516,12 @@
         <mxCell id="lPhKq7tkLgpHc5pmpm-n-1" parent="lPhKq7tkLgpHc5pmpm-n-0" />
         <mxCell id="lPhKq7tkLgpHc5pmpm-n-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;users&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;email&lt;br&gt;password&lt;br&gt;enabled&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=0;fontSize=12;shadow=1;" vertex="1" parent="lPhKq7tkLgpHc5pmpm-n-1">
           <mxGeometry x="140" y="80" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lPhKq7tkLgpHc5pmpm-n-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;transactions&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id&lt;br&gt;transaction_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;order_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;amount&lt;br&gt;gateway&lt;br&gt;paid&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=0;fontSize=12;shadow=1;" vertex="1" parent="lPhKq7tkLgpHc5pmpm-n-1">
+          <mxGeometry x="400" y="130" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lPhKq7tkLgpHc5pmpm-n-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;transactions&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id&lt;br&gt;transaction_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;order_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;amount&lt;br&gt;gateway&lt;br&gt;paid&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;sketch=0;fontSize=12;shadow=1;" vertex="1" parent="lPhKq7tkLgpHc5pmpm-n-1">
+          <mxGeometry x="150" y="230" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
