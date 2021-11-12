@@ -16,12 +16,21 @@
 - Issues
 - Enhancements
 
-### What are the rules?
+### What are the rules? 👮🏼‍♂️
 
 - Respect each other
 - No inhuman behaviour
 - Dont push directly to main
 - Dont push breaking changes
+
+### Code Conventions 💻
+- Global variables written in UPPERCASE (We don't, but it's quite common) e.g `CATS`
+- Constants (like PI) written in UPPERCASE e.g `let PI = 3.1413`
+- Filenames are written in snake case e.g `manage_products.ts`
+- Component, Class, Interface, Enum, Module and Constructor names are written in Pascal case e.g `ManageProductsComponent`, `ManageProductsModule`, `ManageProductsService`
+- Variable, Function, Method, Property names are written in camel case e.g `manageProducts` , `getProducts()`
+- Alias names are written in Pascal case e.g `ManageProductsComponent`
+
 
 ##### Let's Contribute :smiley:
 
