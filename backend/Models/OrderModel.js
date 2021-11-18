@@ -31,3 +31,5 @@ var OrderItemsSchema = mongoose.Schema({
     timestamps: true
 })
 
+const OrderModel = mongoose.model("Order", OrderSchema)
+module.exports = OrderModel
