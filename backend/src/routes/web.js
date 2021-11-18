@@ -1,0 +1,38 @@
+var express = require('express');
+var router = express.Router();
+const HomeController = require('../controllers/web/homeController')
+const ProductController = require('../controllers/web/productController')
+const AuthController = require('../controllers/web/authController')
+const SettingsController = require('../controllers/web/settingsController')
+
+/* Home Routes */
+router.get('/', HomeController.home);
+
+/* Product Routes */
+router.get('/product/:id', ProductController.getProduct);
+router.get('/products', ProductController.products);
+router.get('/edit-product/:id', ProductController.edit);
+router.post('/update-product/:id', ProductController.update);
+router.post('/delete-product/:id', ProductController.delete);
+
+/* Auth Routes */
+router.get('/auth/login', AuthController.loginPage);
+router.post('/auth/login', AuthController.login);
+router.get('/auth/register', AuthController.registerPage);
+router.post('/auth/register', AuthController.register);
+router.get('/auth/forgot-password', AuthController.forgotPasswordPage);
+router.post('/auth/forgot-password', AuthController.forgotPassword);
+router.get('/auth/reset-password', AuthController.resetPasswordPage);
+router.post('/auth/reset-password', AuthController.resetPassword);
+
+
+/* Settings Routes */
+router.get('/setting/:id', SettingsController.getProduct);
+router.get('/settings', SettingsController.settings);
+router.get('/edit-setting/:key', SettingsController.edit);
+router.post('/update-setting/:key', SettingsController.update);
+router.post('/delete-setting/:key', SettingsController.delete);
+
+
+
+module.exports = router;
