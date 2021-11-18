@@ -15,8 +15,12 @@ var BlogSchema = mongoose.Schema({
         required: true
     },
     category: {
-        type: monogoose.Schema.Types.ObjectId,
+        type: mongoose.Schema.Types.ObjectId,
         ref: 'BlogCategory'
+    },
+    seo: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'SEO'
     }
 }, {
     timestamps: true
