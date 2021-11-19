@@ -1,5 +1,5 @@
 class SettingsController {
-    static getSettings = (req, res, next) => {
+    static getSetting = (req, res, next) => {
         res.send('Product');
     } 
 
@@ -20,4 +20,4 @@ class SettingsController {
     }   
 }
 
-module.exports = SettingsController
+module.exports = SettingsController;
