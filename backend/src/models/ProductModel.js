@@ -57,5 +57,5 @@ var ProductSchema=mongoose.Schema({
     },
     features:[{type:String}],
 },{timestamps:true})
-const ProductModel=mongoose.model("Product",ProductSchema)
+const ProductModel = mongoose.model("Product",ProductSchema)
 module.exports=ProductModel

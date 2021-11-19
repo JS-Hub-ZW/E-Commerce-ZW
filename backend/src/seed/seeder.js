@@ -1,7 +1,7 @@
 var mongoose=require("mongoose")
-var User=require("./Models/UserModel")
-var Product=require("./Models/ProductModel")
-const connectDB = require('./config/db');
+var User=require("../Models/UserModel")
+var Product=require("../Models/ProductModel")
+const connectDB = require('../config/db');
 const products=require("./data/Products")
 
 require('dotenv').config()

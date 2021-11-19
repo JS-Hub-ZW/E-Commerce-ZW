@@ -5,6 +5,11 @@ const UserSchema=new mongoose.Schema({
         type: String,
         required: true
     },
+    username:{
+        type: String,
+        required: true,
+        unique: true
+    },
     role_id:{
         type: String,
         required:true
@@ -22,6 +27,8 @@ const UserSchema=new mongoose.Schema({
 {
   timestamps: true
 })
+
+
 UserSchema.pre('save',async function(next) {
     var user = this;
     if (!user.isModified('password')) return next();
@@ -30,8 +37,12 @@ UserSchema.pre('save',async function(next) {
     user.password=await bcrypt.hash(user.password,salt)
     // Storing hashed password
 }); 
+
+
 UserSchema.methods.matchPassword =async function(candidatePassword) {
     return await bcrypt.compare(candidatePassword, this.password);
-}; 
+};
+
+
 const UserModel=mongoose.model('User',UserSchema)
 module.exports=UserModel
