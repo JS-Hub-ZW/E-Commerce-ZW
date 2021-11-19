@@ -20,3 +20,5 @@ class OrderController {
         res.send("Delete order")
     }
 }
+
+module.exports = OrderController;
