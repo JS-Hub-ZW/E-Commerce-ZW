@@ -1,6 +1,6 @@
 // Web routes
-const indexRouter = require('./src/routes/web');
+const webRouter = require('../routes/web');
 
 module.exports =  (app) => {
-    app.use('/', indexRouter);
+    app.use('/', webRouter);
 }
