@@ -1,7 +1,7 @@
 // API routes
-const apiRouter = require('./src/routes/api')
+const apiRouter = require('../routes/api')
 
 
 module.exports =  (app) => {
-    app.use('/', apiRouter);
+    app.use('/api/', apiRouter);
 }
