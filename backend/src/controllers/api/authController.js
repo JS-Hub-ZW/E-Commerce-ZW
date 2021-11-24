@@ -1,8 +1,9 @@
 const User = require('../../models/UserModel')
+var bcrypt=require("bcrypt")
 
 class AuthController {
     static login = (req, res, next) => {
-        
+
         const { username, password } = req.body;
 
         User.findOne({ username: username }, (error, user) => {
@@ -35,7 +36,30 @@ class AuthController {
     }
 
     static register = (req, res, next) => {
-        res.send('Register');
+        const { username, password, name, email } = req.body;
+
+        let newUser = {
+            username: username,
+            password: password,
+            name: name,
+            email: email,
+            role_id: 'user'
+        }
+
+
+        User.create(newUser, (error, user) => {
+            if (error) {
+                console.log(error)
+                return res.json({
+                    status: 'failed',
+                    message: 'Registration Failed',
+                })
+            }
+            res.json({
+                status: 'success',
+                message: 'Registration Successful',
+            })
+        })
     }
 
     static resetPassword = (req, res, next) => {
@@ -47,11 +71,12 @@ class AuthController {
     }
 
     static logout = (req, res, next) => {
-        req.session.destroy(() =>{
+        req.session.destroy(() => {
             res.json({
                 status: 'success',
                 message: 'Logout Successful',
-            }) })
+            })
+        })
     }
 
 
