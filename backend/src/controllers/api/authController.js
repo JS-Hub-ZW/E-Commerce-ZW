@@ -10,9 +10,7 @@ class AuthController {
                 bcrypt.compare(password, user.password, (error, same) => {
                     if (same) { // if passwords match
                         // store user session, will talk about it later
-                        req.session.user_id = user._id;
-                        req.session.username = user.username;
-                        req.session.logged_id = true;
+                        req.session.userId = user._id;
                         res.json({
                             status: 'success',
                             message: 'Login Successful',
