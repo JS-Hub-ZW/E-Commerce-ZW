@@ -1,5 +1,7 @@
 const User = require('../../models/UserModel')
-var bcrypt=require("bcrypt")
+const PasswordReset = require('../../models/PasswordResetModel')
+var bcrypt = require("bcrypt")
+var cryptojs = require('crypto-js')
 
 class AuthController {
     static login = (req, res, next) => {
@@ -67,7 +69,41 @@ class AuthController {
     }
 
     static forgotPassword = (req, res, next) => {
-        res.send('Forget');
+        const { email } = req.body;
+
+        User.findOne({ email: email }, (error, user) => {
+            if (user) {
+                let token = cryptojs.SHA1(email + new Date().getTime()).toString();
+
+            
+
+                PasswordReset.create({
+                    user: user._id,
+                    token: token
+                }, (error, reset) => {
+                    if (error) {
+                        console.log(error)
+                        return res.json({
+                            status: 'failed',
+                            message: 'Password reset failed',
+                        })
+                    }
+
+                    // TODO Send email to user
+
+                    res.json({
+                        status: 'success',
+                        message: 'Password reset link sent to your email',
+                    })
+                })
+            }
+            else {
+                res.json({
+                    status: 'failed',
+                    message: 'Email does not exist',
+                })
+            }
+        })
     }
 
     static logout = (req, res, next) => {
