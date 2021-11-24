@@ -46,6 +46,14 @@ class AuthController {
         res.send('Forget');
     }
 
+    static logout = (req, res, next) => {
+        req.session.destroy(() =>{
+            res.json({
+                status: 'success',
+                message: 'Logout Successful',
+            }) })
+    }
+
 
 }
 
