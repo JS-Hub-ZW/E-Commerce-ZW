@@ -6,6 +6,12 @@
 2. item detail page
 3. checkout page
 
-### index
+### Homepage
 
-- [] include bootstrap
+- [x] include bootstrap
+- [x] include custom font
+- [x] include icons
+
+> This template has been chosen: https://themewagon.com/themes/fruitkha-free-bootstrap-4-responsive-food-business-template/
+
+#### Navbar
