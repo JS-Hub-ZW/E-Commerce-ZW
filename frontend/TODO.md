@@ -12,6 +12,8 @@
 - [x] include custom font
 - [x] include icons
 
-> This template has been chosen: https://themewagon.com/themes/fruitkha-free-bootstrap-4-responsive-food-business-template/
+> This template has been chosen: https://themewagon.com/themes/free-bootstrap-ecommerce-template-electro/
 
-#### Navbar
+### Decisions
+
+- Items omitting from template

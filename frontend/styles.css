@@ -1,14 +1,7 @@
-:root {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
+  padding: 0;
 }
