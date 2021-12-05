@@ -17,3 +17,4 @@
 ### Decisions
 
 - Items omitting from template
+    - slick class - that's too many moving parts for my liking
