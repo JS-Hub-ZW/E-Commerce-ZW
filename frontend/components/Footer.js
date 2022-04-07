@@ -12,7 +12,7 @@ import {
 */}
 export default function Footer() {
   return (
-    <Container maxW='full' as="footer" role="contentinfo" bg="tomato" >
+    <Container  color="white" maxW='full' as="footer" role="contentinfo" bg="#1D1D1D" >
     <Stack
       spacing="8"
       direction={{
