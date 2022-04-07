@@ -3,7 +3,10 @@ An E-Commerce store with a cart and checkout
 
 ## Tech Stack
 Front-End:
-Next Js, Chakra UI,
+Next Js, Chakra UI, Figma
+
+##Figma link 
+https://www.figma.com/file/b5DgDeYkZmKfiLz6B1EL9U/Ecommerce?node-id=0%3A1
 
 ## You can always refer to the chakra-ui documentation 
 https://chakra-ui.com/
