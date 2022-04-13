@@ -9,6 +9,8 @@ import {
 } from "@chakra-ui/react"
 // import Link from 'next/link'
 
+
+
 export default function Header() {
     return (
         <Box
@@ -29,11 +31,15 @@ export default function Header() {
             </Flex>
             <Flex justifyContent='space-between' alignItems='center' py='4'>
                 <Text color="#5452FF" fontSize='md'>Ecommerce ZW</Text>
-
                 <InputGroup size='sm' maxW='2xl' >
                     <Input placeholder='Search' variant='filled' />
-                    <InputRightAddon children='Search' as='button' color='#fff'
-                        bg="#5452FF" border='none' />
+                    <InputRightAddon 
+                    children='Search'
+                     as='button'
+                      color='#fff'
+                        bg="#5452FF"
+                         border='none'
+                         />
                 </InputGroup>
                 {/*<Flex alignItems='center'>
                 <Input maxW='2xl' bg="#fff" placeholder='Search' size='sm' borderColor='none'/>
@@ -49,7 +55,7 @@ export default function Header() {
             </Flex>*/}
                 <p>icons</p>
             </Flex>
-            <Flex py='2' alignItem='center' gap='4' justifyContent='center' as='nav'>
+            <Flex py='2' alignItems='center' gap='4' justifyContent='center' as='nav'>
                 <Link href='/' _hover={{ color: "#5452FF" }}>Home</Link>
                 <Link href='/' _hover={{ color: "#5452FF" }}>Hot Deals</Link>
                 <Link href='/' _hover={{ color: "#5452FF" }}>Categories</Link>
