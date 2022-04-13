@@ -3,6 +3,7 @@ import {
     Circle,
     Box,
     Image,
+    Button,
     Badge,
     useColorModeValue,
     Icon,
@@ -16,25 +17,25 @@ import {
     {
       isNew: true,
       imageURL:
-        'https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80',
-      name: 'Wayfarer Classic',
-      price: 4.5,
+        'https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=190&h=180&q=80',
+      name: 'Laptop',
+      price: 599.0,
       rating: 4.2,
       numReviews: 34
     },
     {
       isNew: true,
       imageURL:
-        'https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80',
-      name: 'Wayfarer Classic',
-      price: 4.5,
+        'https://images.unsplash.com/photo-1536650731127-3b9ce7c98007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80https://images.unsplash.com/photo-1608156639585-b3a032ef9689?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200&q=80',
+      name: 'Earphones',
+      price: 5.99,
       rating: 4.2,
       numReviews: 34
     },{
       isNew: true,
       imageURL:
-        'https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.21&auto=format&fit=crop&w=200&q=80' ,
-      name: 'Gucci',
+        'https://images.unsplash.com/photo-1533309907656-7b1c2ee56ddf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&h=400&q=80' ,
+      name: 'Drones',
       price: 4.5,
       rating: 4.2,
       numReviews: 34,
@@ -42,12 +43,13 @@ import {
     {
     isNew: true,
     imageURL:
-      'https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80',
-    name: 'Wayfarer Classic',
-    price: 4.5,
+      'https://images.unsplash.com/photo-1551645120-d70bfe84c826?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&h=400&q=80',
+    name: 'Monitor',
+    price: 244.5,
     rating: 4.2,
     numReviews: 34,
-  }
+  },
+  
   ];
 
   
@@ -151,7 +153,12 @@ import {
               </Box>
               
             </Flex>
-            <input type="button" value="ADD CART"  />
+           <Button 
+             colorScheme="purple"
+             mt='4'
+             >
+             Add to Cart
+           </Button>
           </Box>
         </Box>
         ))}

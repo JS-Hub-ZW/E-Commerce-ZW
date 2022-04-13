@@ -16,7 +16,8 @@ const Hero = () => {
         autoPlay='true' 
         interval='1000'
         cols={2} rows={1} gap={10}
-        showDots="false" >
+        showDots="false"
+        showThumbs={false} >
       <ProductAddToCart/> 
       <ProductAddToCart/> 
       

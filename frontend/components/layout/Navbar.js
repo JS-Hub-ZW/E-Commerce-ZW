@@ -7,6 +7,7 @@ import {
     InputGroup,
     InputRightAddon
 } from "@chakra-ui/react"
+import Toggle from "./toggle"
 // import Link from 'next/link'
 
 
@@ -53,7 +54,7 @@ export default function Header() {
                 Search
                 </Button>
             </Flex>*/}
-                <p>icons</p>
+               <Toggle />
             </Flex>
             <Flex py='2' alignItems='center' gap='4' justifyContent='center' as='nav'>
                 <Link href='/' _hover={{ color: "#5452FF" }}>Home</Link>
