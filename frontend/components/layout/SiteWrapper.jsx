@@ -7,12 +7,13 @@ const SiteWrapper = ({ children }) => {
     <>
       <Header />
       <Box
-        px={{ base: "8", md: "12" }}
+        px={{ base: "2", md: "4" }}
         minH="100vh"
+        py={4}
 
         //   maxW={{ base: "3xl", md: "4xl", lg: "5xl" }}
       >
-        {children}
+        <Box mx="auto">{children}</Box>
       </Box>
       <Footer />
     </>

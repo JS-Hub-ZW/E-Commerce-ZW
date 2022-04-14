@@ -87,7 +87,8 @@ function ProductAddToCart() {
         <Box
           bg={useColorModeValue("white", "gray.800")}
           maxW="sm"
-          borderWidth="2px"
+          borderWidth="1px"
+          borderColor="gray.300"
           rounded="lg"
           shadow="lg"
           position="relative"
